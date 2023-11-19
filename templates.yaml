@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: example-all-in-one
+  description: A collection of all Backstage example entities
+spec:
+  targets:
+    - ./scaffolder-templates/docs-template/template.yaml
+    - ./scaffolder-templates/create-react-app/template.yaml
+    - ./scaffolder-templates/springboot-grpc-template/template.yaml
